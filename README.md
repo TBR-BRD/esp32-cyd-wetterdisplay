@@ -20,6 +20,41 @@ As specified by upstream:
 | Wi-Fi | 2.4 GHz |
 | Power | USB |
 
+## Changes from upstream
+
+- Location set to Falkensee with the Europe/Berlin time rules.
+- Forecast days and on-screen labels use the configured time zone and city instead of hard-coded IST and Bengaluru values.
+- Display text is German.
+- Auto mode cycles only the three weather pages; System remains available by touch.
+- `tools/flash.py` flashes firmware and assets without the Arduino IDE.
+- Upstream's product images are not copied; see its README for screenshots.
+
+## Setup
+
+Requires [Arduino CLI](https://docs.arduino.cc/arduino-cli/installation/) and the ESP32 core:
+
+```sh
+brew install arduino-cli
+arduino-cli core install esp32:esp32@3.2.0 --additional-urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+```
+
+Copy `Esp32_CYD_TFT_eSPI_OpenWeather_LittleFS_v02/Secrets.example.h` to `Secrets.h` in the same folder and enter your Wi-Fi credentials and OpenWeather API key. Git ignores `Secrets.h`. Location and refresh intervals are in `All_Settings.h`.
+
+Connect the board, then:
+
+```sh
+python3 tools/test.py   # optional host tests
+python3 tools/flash.py  # build and flash firmware and assets
+```
+
+On Apple Silicon Macs, a newly connected board stays without a serial port until it is allowed under System Settings → Privacy & Security → Allow accessories to connect.
+
+Touch controls and troubleshooting are described in the [upstream README](https://github.com/Rau7han/ESP32-CYD-Weather-Station#touch-controls).
+
 ## Status
 
-Firmware not imported yet. See [STATUS.md](STATUS.md) and [DECISIONS.md](DECISIONS.md).
+See [STATUS.md](STATUS.md) and [DECISIONS.md](DECISIONS.md).
+
+## License
+
+MIT, see [LICENSE](LICENSE). Third-party notices are in [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).

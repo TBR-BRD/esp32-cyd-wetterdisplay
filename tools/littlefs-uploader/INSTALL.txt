@@ -1,0 +1,17 @@
+Arduino IDE 2 LittleFS uploader, version 1.6.3
+
+Copy the included arduino-littlefs-upload-1.6.3.vsix to:
+Linux/macOS: ~/.arduinoIDE/plugins/
+Windows: C:\Users\<username>\.arduinoIDE\plugins\
+Create the plugins directory if necessary, then restart Arduino IDE.
+For a sandboxed/packaged IDE, use that installation's .arduinoIDE plugin folder.
+
+Close Serial Monitor before uploading.
+In Arduino IDE, press Ctrl+Shift+P (macOS: Cmd+Shift+P), then select:
+Upload LittleFS to Pico/ESP8266/ESP32
+
+The same ESP32 Dev Module / No OTA (2MB APP/2MB SPIFFS) board settings
+must be selected when uploading both the sketch and the data directory.
+
+Original project: https://github.com/earlephilhower/arduino-littlefs-upload
+The VSIX is the unmodified official release, bundled under its MIT license.

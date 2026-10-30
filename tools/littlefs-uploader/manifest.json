@@ -1,0 +1,9 @@
+{
+  "name": "arduino-littlefs-upload",
+  "version": "1.6.3",
+  "upstream": "https://github.com/earlephilhower/arduino-littlefs-upload",
+  "release": "https://github.com/earlephilhower/arduino-littlefs-upload/releases/tag/1.6.3",
+  "file": "arduino-littlefs-upload-1.6.3.vsix",
+  "sha256": "22c02d4f02cc094657c9db5cc8231d5e111829f8fd7d6e7be7633c6fdd1b7c3f",
+  "license": "MIT; see LICENSE.md"
+}

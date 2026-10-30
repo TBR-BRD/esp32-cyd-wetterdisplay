@@ -1,0 +1,34 @@
+[
+  {
+    "name": "TFT_eSPI",
+    "version": "2.5.44",
+    "upstream": "https://github.com/Bodmer/TFT_eSPI",
+    "archive": "libraries/TFT_eSPI-2.5.44.zip",
+    "sha256": "3dcf02f26f2a94c2f885fb922f987e444ac7d7faa1835805b5777509b105e0c5",
+    "note": "Includes supplied CYD ILI9341 User_Setup.h"
+  },
+  {
+    "name": "TJpg_Decoder",
+    "version": "1.1.0",
+    "upstream": "https://github.com/Bodmer/TJpg_Decoder",
+    "archive": "libraries/TJpg_Decoder-1.1.0.zip",
+    "sha256": "b3d3b553b02065eeaf46ad46bb1d6ee0a1abb69c858bbf92f7ca78e49aa3a694",
+    "note": "Tested runtime sources"
+  },
+  {
+    "name": "ArduinoJson",
+    "version": "7.4.2",
+    "upstream": "https://github.com/bblanchon/ArduinoJson",
+    "archive": "libraries/ArduinoJson-7.4.2.zip",
+    "sha256": "e85ee65fc5556e1c9db02b9b846756ecafc1b94a550cad2f45dc106179fa3d58",
+    "note": "Tested runtime sources"
+  },
+  {
+    "name": "XPT2046_Touchscreen",
+    "version": "1.4",
+    "upstream": "https://github.com/PaulStoffregen/XPT2046_Touchscreen",
+    "archive": "libraries/XPT2046_Touchscreen-1.4.zip",
+    "sha256": "6577db7a1d4060a8e39be42c3ecba8a44095c6af84892cc0669c68d355bf68d1",
+    "note": "Tested runtime sources"
+  }
+]

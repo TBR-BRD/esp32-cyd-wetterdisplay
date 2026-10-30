@@ -1,9 +1,11 @@
-# Credentials
-Secrets.h
-
-# Build output
+# Personal credentials
+**/Secrets.h
+# Generated files
 .build/
-build/
-
-# macOS
+.cyd-build/
+**/__pycache__/
+*.pyc
+*.bin
+*.elf
+*.map
 .DS_Store
