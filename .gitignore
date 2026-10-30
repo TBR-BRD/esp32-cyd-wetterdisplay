@@ -1,0 +1,9 @@
+# Credentials
+Secrets.h
+
+# Build output
+.build/
+build/
+
+# macOS
+.DS_Store
