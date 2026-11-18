@@ -4,6 +4,12 @@ My own weather display on an ESP32 "Cheap Yellow Display" (CYD): a 2.8-inch 320Ã
 
 ![Start page of the weather display](images/startseite.png)
 
+<br>
+<a href="https://www.buymeacoffee.com/thoralf.brandt" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174">
+</a>
+<br>
+
 ## Based on
 
 This project is a rebuild of **[Rau7han/ESP32-CYD-Weather-Station](https://github.com/Rau7han/ESP32-CYD-Weather-Station)** (MIT License), used as the reference for hardware, firmware and enclosure. The reference point is commit [`8ff69cd`](https://github.com/Rau7han/ESP32-CYD-Weather-Station/tree/8ff69cd18980db0204cc178c4f7d10b8208bcfd9).
